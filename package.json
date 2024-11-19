@@ -1,0 +1,19 @@
+{
+  "name": "secondproject",
+  "version": "1.0.0",
+  "description": "currency exchange rate tracking bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
+  },
+  "author": "Kozhevnikov Artem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "mysql2": "^3.11.4",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.7",
+    "set-interval-async": "^3.0.3"
+  }
+}
